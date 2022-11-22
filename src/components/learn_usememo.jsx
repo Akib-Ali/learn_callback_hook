@@ -19,13 +19,11 @@ export const LearnCallBackHook=()=>{
 
     const IsEven= useMemo(()=>{
 
-        console.log("Only Relation Increment One Function")
+    console.log(`Only Relation Increment One Function ${incrementOne}`)
 
     return incrementOne % 2 == 0
     
-
-
-    },[incrementOne])
+    }, [incrementOne])
 
 
     return(
